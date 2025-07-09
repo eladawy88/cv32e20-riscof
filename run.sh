@@ -23,7 +23,7 @@ rm -rf cv32e20
 rm -rf riscv-arch-test
 
 git submodule update --init
-git apply plugin-cv32e20/cv32e20_manifest.patch
+#git apply plugin-cv32e20/cv32e20_manifest.patch
 
 # Display git hashes of submodules
 echo "cv32e20 Hash:"
