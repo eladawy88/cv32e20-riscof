@@ -133,7 +133,6 @@ testbench_verilator: $(TBSRC_VERI) $(TBSRC_PKG)
 		--Wno-MODDUP --top-module \
 		tb_top_verilator $(TBSRC_VERI) \
 		-f $(CV_CORE_MANIFEST) \
-		$(CV_CORE_PKG)/bhv/$(CV_CORE_LC)_core_log.sv \
 		$(TBSRC_CORE)/tb_top_verilator.cpp --Mdir $(VERI_OBJ_DIR) \
 		-CFLAGS "-std=gnu++11 $(VERI_CFLAGS)" \
 		$(VERI_COMPILE_FLAGS)
